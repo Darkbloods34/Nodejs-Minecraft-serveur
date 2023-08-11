@@ -40,7 +40,7 @@ const GetServeur = async (req, res) => {
                     var ports =  25576;
                     const server = new MinecraftServer({
                         jar: 'server.jar',
-                        path: 'C:/Users/lucas/Desktop/serveur minecraft/DataServeur/'+ replace,
+                        path: '/Desktop/serveur minecraft/DataServeur/'+ replace,
                     
                         args: ['-Xms1G', '-Xmx1G'],
                     
